@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #chat {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw;
+    background-color: #262a2d;
+    
+  }
+  
+  input {
+    width: 60vw;
+    border: 1px solid #17191a;
+    height: 5vw;
+    padding: 0 2vw;
+    font-size: 1.5vw;
+    background-color: #6c7a86;
+    border-radius: 10px;
+  }
+  input::placeholder {
+    color: #17191a;
+    font-weight: bold;
+  }
+  
+  button {
+    width: 60vw;
+    height: 5vw;
+    font-size: 1.5vw;
+    background: #6c7a86;
+    text-align: center;
+    line-height: 5vw;
+    font-weight: bold;
+    color: #17191a;
+    margin-top: 1vw;
+    border: none;
+  }
+  
+  .messages {
+    width: 60vw;
+    overflow-y: scroll;
+    height: 40vw;
+    margin: 2vw 0;
+    border: 1px solid #17191a;
+    padding: 2vw;
+    background-color: #6c7a86;
+    border-radius: 10px;
+  }
+
+  .messages::-webkit-scrollbar {
+    width: 5px;  
+    margin-right: 2px;             /* width of the entire scrollbar */
+  }
+  
+  .messages::-webkit-scrollbar-track {
+    background: #6c7a86;        /* color of the tracking area */
+  }
+  
+  .messages::-webkit-scrollbar-thumb {
+    background-color: #17191a;    /* color of the scroll thumb */
+    border-radius: 20px;  /* creates padding around scroll thumb */
+  }
+
+  #titulo{
+    font-size: 200%;
+
+  }
